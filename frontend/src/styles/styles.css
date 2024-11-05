@@ -1,0 +1,91 @@
+/* Botões */
+.btn-warning {
+  background-color: #FF8C00; 
+  border-color: #FF8C00; 
+  border-radius: 5px; /* Bordas arredondadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Transição suave */
+}
+
+.btn-warning:hover {
+  background-color: darkorange; 
+  border-color: darkorange; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
+}
+
+.btn-editar {
+  background-color: #FF8C00;  
+  border: 2px solid #FF8C00; 
+  padding: 10px 20px;         
+  text-decoration: none;      
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+.btn-editar:hover {
+  background-color: darkorange; 
+  color: white;               
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
+}
+
+/* Corpo do site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #444444; 
+  line-height: 1.6; /* Melhor legibilidade */
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto; /* Adiciona espaçamento em volta */
+  padding: 30px; /* Aumenta o padding */
+  background-color: #FFFFFF;
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para o container */
+}
+
+/* Status */
+.status-ativo, .status-inativo, .status-aguardando, .status-desativado {
+  display: flex; /* Usar flex para centralizar a bolinha */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.status-bolinha {
+  display: inline-block;
+  width: 12px; /* Aumenta o tamanho da bolinha */
+  height: 12px; /* Aumenta o tamanho da bolinha */
+  border-radius: 50%;
+  margin-right: 10px; /* Aumenta o espaço entre a bolinha e o texto */
+}
+
+.status-ativo {
+  background-color: green;
+}
+
+.status-inativo {
+  background-color: red;
+}
+
+.status-aguardando {
+  background-color: orange;
+}
+
+.status-desativado {
+  background-color: gray;
+}
+
+/* Botão de perigo */
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px; /* Bordas arredondadas */
+  padding: 10px 20px; /* Ajusta o padding para um aspecto mais robusto */
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
